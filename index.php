@@ -50,7 +50,8 @@
                         <li><a class="nav-link" data-scroll-nav="1" href="#about"><span><?=$texts[$lang]['sobre']; ?></span></a></li>
                         <li><a class="nav-link" data-scroll-nav="2" href="#services"><span><?=$texts[$lang]['servicos']; ?></span></a></li>
                         <li><a class="nav-link" data-scroll-nav="4" href="#contactus"><span><?=$texts[$lang]['contato']; ?></span></a></li>
-                        <li><a class="nav-link" href="?lang=<?=($lang=='pt')?'en':'pt';?>" style="margin-top: -8px;"><img src="<?= ($lang == 'pt') ? 'assets/img/en.png' : 'assets/img/pt.png';?>" /></a></li>
+                        <li><a class="nav-link" href="https://github.com/paulohenriqueflesch/curriculo" target="_blank" style="margin-top: -8px;"><img src="assets/img/git.png" /></a></li>
+                        <li><a class="nav-link" href="?lang=<?=($lang=='pt')?'en':'pt';?>" style="margin-top: -4px;"><img src="<?= ($lang == 'pt') ? 'assets/img/en.png' : 'assets/img/pt.png';?>" /></a></li>
                     </ul>
                 </div>
                 <!-- / -->
